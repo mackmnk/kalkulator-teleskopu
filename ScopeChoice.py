@@ -100,7 +100,7 @@ if __name__ == '__main__':
     multiplier_entry = Tk.Entry(frame, width=20)
     multiplier_entry.grid(sticky=Tk.W, row=4, column=1, padx=5, pady=5)
 
-    skymag_label = Tk.Label(frame, text='Podaj poziom ciemności nieba w magnitudo (zakres 0.5 mm - 7 mm):')
+    skymag_label = Tk.Label(frame, text='Podaj poziom jakości ciemnego nieba w magnitudo (zakres 0.0 mag - 7.5 mag):')
     skymag_label.grid(sticky=Tk.E, row=5, column=0, padx=5, pady=5)
     skymag_entry = Tk.Entry(frame, width=20)
     skymag_entry.grid(sticky=Tk.W, row=5, column=1, padx=5, pady=5)
